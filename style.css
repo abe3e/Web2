@@ -1,0 +1,88 @@
+html{
+    font-family:monospace;
+}
+body{
+    background-color:#ffffff;
+}
+
+img{
+    max-width:55%;
+    border: 8px solid #ffd6ff;
+    overflow: hidden;
+}
+
+hr{
+    border-color:#ffd6ff;
+    height: 2px;
+    background-color: #ffd6ff;
+}
+
+.heading{
+    color:transparent;
+    font-variant: normal;
+    font-stretch:extra-expanded;
+    text-align: center;
+    background-image: linear-gradient(to right, #b8c0ff,#e7c6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    border:5px dashed #ffd6ff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.picheading{
+    color: #b8c0ff;
+    font-size: medium;
+    text-align: right;
+
+    display: flex;
+    align-items: right;
+    height: 100%;
+}
+
+.backpic{
+    background-color: #ffd6ff;
+    padding: 10px;
+    display: inline-block;
+
+    border: 5px solid transparent;
+    border-radius: 20px;
+}
+
+.cat-pics {
+    display: flex;
+    align-items: center;
+  }
+
+  .miko {
+    flex: 1;
+    padding: 20px;
+    order: 1;
+  }
+  
+  .bug {
+    flex: 1;
+    padding: 20px;
+    order: 2;
+  }
+  
+  .yummi{
+    flex: 1;
+    padding: 20px;
+    order: 3;
+  }
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid #ffd6ff;
+    background-color: #ffd6ff;
+}  
+
+.flex-child:first-child {
+    margin-right: 0px;
+}
